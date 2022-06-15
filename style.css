@@ -1,0 +1,259 @@
+:root {
+	--dark-blue: hsl(243, 87%, 12%);
+	--saturated-blue: hsl(238, 22%, 44%);
+	--bright-blue: hsl(224, 93%, 58%);
+	--moderate-cyan:  hsl(170, 45%, 43%);
+	--grayish-blue: hsl(240, 75%, 98%);
+	--light-gray: hsl(0, 0%, 75%);
+
+}
+
+body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+#navbar {
+	padding: 30px 0 30px 20px;
+}
+.nav-links a {
+	padding: 0 10px;
+	color: var(--dark-blue);
+}
+.nav-links a:hover {
+	text-decoration: none;
+}
+
+#banner {
+	padding: 30px;
+}
+.banner-image img {
+	height: auto;
+	width: 100%;
+}
+
+.banner-text {
+	text-align: center;
+	padding-top: 50px;
+	color: var(--dark-blue);
+}
+ form input{
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+	border: 1px solid var(--dark-blue);
+	padding: 10px 30px;
+	border-radius: 3px;
+}
+ form .btn{
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+	padding: 10px;
+}
+form .btn:hover {
+	filter: brightness(150%);
+}
+
+#stay-productive {
+	background-color: var(--grayish-blue);
+	padding: 20px 20px 80px 20px;
+}
+.productive-image img {
+	height: auto;
+	width: 100%;
+}
+.productive-image {
+	padding-bottom: 50px;
+}
+.productive-text {
+	color: var(--dark-blue);
+}
+.productive-link a{
+	color: var(--moderate-cyan);
+	position: relative;
+	
+}
+.productive-link {
+	position: relative;
+	text-align: center;
+}
+.productive-link a::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	margin-top: 10px;
+	height: 2px;
+	background-color: var(--moderate-cyan);
+}
+.productive-link a:hover {
+
+}
+.founder-quote {
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+	margin: 10px 30px;
+}
+.founder-name img {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.founder-name {
+	display: flex;
+}
+
+#early-access {
+	background-color: var(--saturated-blue);
+	color: white;
+	padding: 50px;
+}
+.access-text {
+	text-align: center;
+}
+.access-form input {
+	border: none;
+}
+
+#footer {
+	background-color: var(--dark-blue);
+	padding: 30px 20px;
+	color: white;
+}
+.footer-item {
+	padding: 20px 0;
+}
+.footer-item .logo {
+	padding-bottom: 20px;
+}
+.f-content {
+	display: flex;
+	
+}
+.f-content img {
+	height: 100%;
+	align-self: center;
+	padding-right: 20px;
+}
+.f-content p {
+	align-self: center;
+	padding-top: 10px;
+}
+.footer-item a {
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+.footer-item a:hover {
+	color: var(--bright-blue);
+}
+.f-socials {
+	text-align: center;
+	padding: 20px 0 30px 0;
+}
+.f-socials a {
+	color: white;
+	border: 1px solid white;
+	border-radius: 50%;
+	padding: 10px;
+}
+.f-socials a:hover {
+	color: var(--bright-blue);
+	border: 1px solid var(--bright-blue);
+}
+@media screen and (min-width: 600px) {
+	.nav-links a {
+		padding: 0 30px;
+	}
+
+	#banner {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		padding: 30px 50px;
+	}
+	.banner-text {
+		text-align: left;
+		width: 60%;
+		align-self: center;
+		margin-right: 20px;
+	}
+	.banner-image {
+		margin-left: 20px;
+	}
+	.banner-form form{
+		display: flex;
+		
+	}
+	.banner-text .banner-form form input {
+		margin-bottom: 0;
+		width: 60%;
+		margin-right: 5px;
+	}
+	.banner-text .banner-form form button {
+		margin-top: 0;
+		width: 40%;
+		margin-left: 5px;
+	}
+
+	#stay-productive {
+		display: flex;
+		flex-direction: row-reverse;
+		padding: 50px;
+	}
+	.productive-text {
+		align-self: center;
+	}
+	.productive-image {
+		padding-left: 30px;
+	}
+	.productive-link {
+		text-align: left;
+		padding-bottom: 30px;
+	}
+	.founder-quote {
+		width: 350px;
+		margin: 0;
+	}
+
+
+	#early-access {
+		display: flex;
+		justify-content: space-between;
+	}
+	.access-text {
+		text-align: left;
+		width: 60%;
+		max-width: 480px;
+	}
+	.access-form {
+		width: 40%;
+	}
+	.access-form input {
+		width: 80%;
+	}
+	.access-form .btn {
+		width: 40%;
+	}
+
+	
+	.footer-wrapper {
+		display: flex;
+		justify-content: space-evenly;
+		
+	}
+	.f-item1 {
+		justify-self: left;
+	}
+	.f-item {
+		align-self: center;
+
+	}
+}
