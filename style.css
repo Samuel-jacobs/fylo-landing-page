@@ -176,12 +176,13 @@ form .btn:hover {
 	color: var(--bright-blue);
 	border: 1px solid var(--bright-blue);
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 600px) {
 	#navbar {
 		padding: 30px 0;
 	}
 	.nav-links a {
 		padding: 0 10px 0 0;
+		color: green;
 	}
 }
 @media screen and (min-width: 600px) {
