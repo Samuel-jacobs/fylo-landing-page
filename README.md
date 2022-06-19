@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Samuel-jacobs/fylo-landing-page](https://github.com/Samuel-jacobs/fylo-landing-page)
-- Live Site URL: [https://samuel-jacobs/github.io/fylo-landing-page](https://samuel-jacobs/github.io/fylo-landing-page)
+- Live Site URL: [https://samuel-jacobs.github.io/fylo-landing-page](https://samuel-jacobs.github.io/fylo-landing-page)
 
 ## My process
 
